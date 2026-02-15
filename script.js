@@ -171,8 +171,35 @@ function loadDashboard() {
     balanceEl.textContent = formatCurrency(balance);
 }
 
+// =============================
+// LOAD REPORTS
+// =============================
 
 
+function loadReports() {
+    const transactions = getTransactions();
+
+    const reportIncome = document.getElementById("reportIncome");
+    const reportExpenses = document.getElementById("reportExpenses");
+    const reportBalance = document.getElementById("reportBalance");
 
 
+     if (!reportExpenses) return;
+
+    let income = 0;
+    let expenses = 0;
+
+
+    transactions.forEach(t => {
+        if (t.type === "income") income += t.amount;
+        else expenses += t.amount;
+    });
+
+
+    const balance = income - expenses;
+
+    if (reportIncome) reportIncome.textContent = formatCurrency(income);
+    reportExpenses.textContent = formatCurrency(expenses);
+    reportBalance.textContent = formatCurrency(balance);
 }
+
