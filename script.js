@@ -203,3 +203,12 @@ function loadReports() {
     reportBalance.textContent = formatCurrency(balance);
 }
 
+// =============================
+// INIT
+// =============================
+
+document.addEventListener("DOMContentLoaded", () => {
+    loadDashboard();
+    loadReports();
+});
+
