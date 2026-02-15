@@ -185,3 +185,12 @@ button:hover{
     color: var(--danger);
 }
 
+/*=========Footer=======*/
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-dark);
+    color: white;
+}
+
