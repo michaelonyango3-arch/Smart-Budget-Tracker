@@ -22,5 +22,14 @@ function formatCurrency(amount) {
     });
 }
 
+// =============================
+// DELETE TRANSACTION
+// =============================
 
+function deleteTransaction(id) {
+    const transactions = getTransactions().filter(t=> t.id !== id);
+    saveTransactions(transactions);
+    loadDashboard();
+    loadReports();
+}
 
