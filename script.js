@@ -77,7 +77,7 @@ if (form) {
         e.preventDefault();
         const description = document.getElementById("description").value.trim();
         const amount = parseFloat(document.getElementById("amount").value);
-        cosnt type = document.getElementById("type").value;
+        const type = document.getElementById("type").value;
         const category = document.getElementById("category").value.trim();
         const date = document.getElementById("date").value;
         const error = document.getElementById("formError");
