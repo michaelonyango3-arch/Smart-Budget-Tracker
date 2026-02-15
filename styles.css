@@ -194,3 +194,23 @@ footer{
     color: white;
 }
 
+/*=====Responsive design======*/
+
+@media ( max-width: 768px) {
+    nav{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    main{
+        padding: 1.5rem;
+    }
+}
+
+@media  ( max-width: 480px ) {
+    .summary-cards, .reports-section{
+        grid-template-columns: 1fr;
+    }
+    header h1 {
+        font-size: 1.3rem;
+    }
+}
