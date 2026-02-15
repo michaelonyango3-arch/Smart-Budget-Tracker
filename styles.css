@@ -28,3 +28,32 @@ body{
 }
 
 /*------Header-----*/
+header{
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark)  );
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/*----Navigatiion----*/
+nav{
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: var(--primary);
+}
+
