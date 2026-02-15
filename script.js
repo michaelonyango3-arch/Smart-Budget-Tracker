@@ -114,4 +114,65 @@ if (form) {
     })
 }
 
+// =============================
+// LOAD DASHBOARD
+// =============================
 
+
+function loadDashboard() {
+    const transactions = getTransactions();
+
+    const balanceEl = document.getElementById("balance");
+    if (!balanceEl) return;
+
+    const incomeEl = document.getElementById("income");
+    const expenseEl = document.getElementById("expenses");
+    const listEl = document.getElementById("transactionList");
+    const noTransactions = document.getElementById("noTransactions");
+
+    let income = 0;
+    let expenses = 0;
+
+    listEl.innerHTML = "";
+
+    if (transactions.length === 0) {
+        noTransactions.textContent = "No transactions yet.";
+        } else {
+        noTransactions.textContent = "";
+
+        transactions.forEach(t => {
+            if (t.type === "income") income += t.amount;
+            else expenses += t.amount;
+
+            const li = document.createElement("li");
+            li.classList.add(t.type === "income" ? "income-item" : "expense-item");
+
+              li.innerHTML = `
+                <div>
+                    <strong>${t.description}</strong><br>
+                    <small>${t.category} | ${t.date}</small>
+                </div>
+                <div>
+                    ${formatCurrency(t.amount)}
+                    <br>
+                    <button onclick="editTransaction(${t.id})">Edit</button>
+                    <button onclick="deleteTransaction(${t.id})" style="background:#dc2626;margin-left:5px;">Delete</button>
+                </div>
+            `;
+
+             listEl.appendChild(li);
+        });
+    }
+
+    const balance = income - expenses;
+
+    incomeEl.textContent = formatCurrency(income);
+    expenseEl.textContent = formatCurrency(expenses);
+    balanceEl.textContent = formatCurrency(balance);
+}
+
+
+
+
+
+}
