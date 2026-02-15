@@ -33,3 +33,19 @@ function deleteTransaction(id) {
     loadReports();
 }
 
+// =============================
+// EDIT TRANSACTION
+// =============================
+
+function editTransaction(id) {
+    const transactions = getTransactions();
+    const transaction = transactions.find(t => t.id === id);
+
+    if (!transaction) return;
+
+    //Save to temporary storage for editing
+    localStorage.setItem("editTransactionId", id);
+
+    //Redirect to add page
+    window.location.href = "add html";
+}
