@@ -100,3 +100,40 @@ main{
     font-size: 1.4rem;
     font-weight: bold;
 }
+
+/*==========Transactions list=========*/
+
+.transactions ul{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.transactions li{
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+    transition: 0.2s ease;
+}
+
+.transactions li:hover{
+    transform: scale(1.01);
+}
+
+.income-item{
+    border-left: 6px solid var(--success);
+}
+
+.expense-item{
+    border-left: 6px solid var(--danger);
+}
+
+.message{
+    color: var(--text-light);
+    margin-top: 1rem;
+}
+
