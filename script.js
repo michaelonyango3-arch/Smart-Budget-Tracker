@@ -47,7 +47,7 @@ function editTransaction(id) {
     localStorage.setItem("editTransactionId", id);
 
     //Redirect to add page
-    window.location.href = "add html";
+    window.location.href = "add.html";
 }
 
 // =============================
