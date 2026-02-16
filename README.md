@@ -31,10 +31,27 @@ This is a simple, fully functional **budget tracking web app** that helps users 
 
 ## Technologies Used
 
-- **HTML5** – Semantic page structure and forms.  
-- **CSS3** – Flexbox, Grid, responsive design, CSS variables.  
-- **JavaScript (ES6)** – DOM manipulation, events, localStorage, and data handling.
+- **HTML** – Semantic page structure and forms.  
+- **CSS** – Flexbox, Grid, responsive design, CSS variables.  
+- **JavaScript** – DOM manipulation, events, localStorage, and data handling.
 
 ---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/michaelonyango3-arch/Smart-Budget-Tracker.git
+
+
+2.Navigate into the project folder:
+
+cd smart-budget-tracker
+
+
+3.Open index.html in your browser.
+
+No backend is needed; all data is stored locally.
 
 
