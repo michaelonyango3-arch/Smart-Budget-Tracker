@@ -58,9 +58,9 @@ All data persists between browser sessions.
 
 smart-budget-tracker/
 │
-├── index.html         # Dashboard page
-├── add.html           # Add/Edit Transaction page
-├── reports.html       # Reports page
-├── styles.css         # Main CSS file
-├── script.js          # JavaScript logic
-└── README.md          # This documentation
+├── index.html # Dashboard page
+├── add.html # Add/Edit Transaction page
+├── reports.html # Reports page
+├── styles.css # Main CSS file
+├── script.js # JavaScript logic
+└── README.md # This documentation
