@@ -84,6 +84,7 @@ if (form) {
 
         if (!description || isNaN(amount) || amount<= 0 || !category ||  !date) {
             error.textContent = "Please enter valid transaction details.";
+            return;
          }
 
          error.textContent = "";
