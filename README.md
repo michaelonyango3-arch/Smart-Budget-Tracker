@@ -18,14 +18,22 @@ This is a simple, fully functional **budget tracking web app** that helps users 
 
 ## Features
 
-- **Add Transactions** – Record income or expenses with description, category, and date.  
+- **Add Transactions** – Record income or expenses with description, category and date.  
 - **Edit Transactions** – Update existing transactions easily.  
 - **Delete Transactions** – Remove transactions from the list.  
-- **Dashboard Summary** – View total income, expenses, and balance at a glance.  
+- **Dashboard Summary** – View total income, expenses and balance at a glance.  
 - **Reports Page** – Financial summary with totals and balance.  
 - **Persistent Storage** – Saves all transactions in browser localStorage.  
-- **Responsive Design** – Works on desktop, tablet, and mobile.  
+- **Responsive Design** – Works on desktop, table, and mobile.  
 - **Currency Formatting** – Displays amounts in Kenyan Shillings (Ksh) with decimals.  
+
+---
+
+## Technologies Used
+
+- **HTML5** – Semantic page structure and forms.  
+- **CSS3** – Flexbox, Grid, responsive design, CSS variables.  
+- **JavaScript (ES6)** – DOM manipulation, events, localStorage, and data handling.
 
 ---
 
