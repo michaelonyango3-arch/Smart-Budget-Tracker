@@ -54,4 +54,18 @@ cd smart-budget-tracker
 
 No backend is needed; all data is stored locally.
 
+Usage
+
+Open the app in a browser.
+
+Navigate to Add Transaction to input income or expenses.
+
+View transactions and summaries on the Dashboard.
+
+Edit or delete transactions as needed.
+
+Check overall totals on the Reports page.
+
+All data persists between browser sessions.
+
 
