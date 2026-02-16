@@ -1,59 +1,46 @@
 # Smart Budget Tracker
 
-This is a simple, fully functional **budget tracking web app** that helps users manage income and expenses. It views transaction history and monitor financial summaries. It has been built with **HTML, CSS, and JavaScript**, using **localStorage** for persistent data.
-
----
-
-## Table of Contents
-
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [File Structure](#file-structure)  
-- [Future Enhancements](#future-enhancements)  
-- [License](#license)  
+This is a  simple, fully functional **budget tracking web app** that helps users manage income and expenses, view transaction history and monitor financial summaries. It is built with **HTML, CSS, and JavaScript**, using **localStorage** for persistent data.
 
 ---
 
 ## Features
 
-- **Add Transactions** – Record income or expenses with description, category and date.  
-- **Edit Transactions** – Update existing transactions easily.  
-- **Delete Transactions** – Remove transactions from the list.  
-- **Dashboard Summary** – View total income, expenses and balance at a glance.  
-- **Reports Page** – Financial summary with totals and balance.  
-- **Persistent Storage** – Saves all transactions in browser localStorage.  
-- **Responsive Design** – Works on desktop, table, and mobile.  
-- **Currency Formatting** – Displays amounts in Kenyan Shillings (Ksh) with decimals.  
+- Add, edit and delete transactions.
+- Dashboard showing total income, expenses and balance.
+- Reports page summarizing financial data.
+- Persistent storage with localStorage.
+- Responsive design for desktop, tablet and mobile.
+- Currency formatted in Kenyan Shillings (Ksh).
 
 ---
 
 ## Technologies Used
 
-- **HTML** – Semantic page structure and forms.  
-- **CSS** – Flexbox, Grid, responsive design, CSS variables.  
-- **JavaScript** – DOM manipulation, events, localStorage, and data handling.
+- HTML5
+- CSS3 (Flexbox, Grid, CSS variables)
+- JavaScript (ES6, DOM manipulation, localStorage)
 
 ---
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/smart-budget-tracker.git
-Navigate into the project folder:
+   ```bash
+   git clone https://github.com/michaelonyango3-arch/Smart-Budget-Tracker.git
+
+2. Navigate into the project folder:
 
 cd smart-budget-tracker
-Open the app:
+
+3. Open the app:
 
 Open index.html in your browser.
 
-No backend is needed; all data is stored locally.
+No backend is required; all data is stored locally.
 
 Usage
-
 Open the app in a browser.
 
 Navigate to Add Transaction to input income or expenses.
@@ -75,4 +62,3 @@ smart-budget-tracker/
 ├── styles.css         # Main CSS file
 ├── script.js          # JavaScript logic
 └── README.md          # This documentation
-
