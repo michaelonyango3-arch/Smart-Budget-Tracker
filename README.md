@@ -40,7 +40,8 @@ Open index.html in your browser.
 
 No backend is required; all data is stored locally.
 
-Usage
+## Usage
+
 Open the app in a browser.
 
 Navigate to Add Transaction to input income or expenses.
@@ -53,7 +54,8 @@ Check overall totals on the Reports page.
 
 All data persists between browser sessions.
 
-File Structure
+## File Structure
+
 smart-budget-tracker/
 │
 ├── index.html         # Dashboard page
