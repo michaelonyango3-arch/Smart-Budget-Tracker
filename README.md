@@ -1,6 +1,6 @@
 # Smart Budget Tracker
 
-A simple, fully functional **budget tracking web app** that helps users manage income and expenses, view transaction history, and monitor financial summaries. Built with **HTML, CSS, and JavaScript**, using **localStorage** for persistent data.
+This is a simple, fully functional **budget tracking web app** that helps users manage income and expenses. It views transaction history and monitor financial summaries. It has been built with **HTML, CSS, and JavaScript**, using **localStorage** for persistent data.
 
 ---
 
@@ -15,4 +15,18 @@ A simple, fully functional **budget tracking web app** that helps users manage i
 - [License](#license)  
 
 ---
+
+## Features
+
+- **Add Transactions** – Record income or expenses with description, category, and date.  
+- **Edit Transactions** – Update existing transactions easily.  
+- **Delete Transactions** – Remove transactions from the list.  
+- **Dashboard Summary** – View total income, expenses, and balance at a glance.  
+- **Reports Page** – Financial summary with totals and balance.  
+- **Persistent Storage** – Saves all transactions in browser localStorage.  
+- **Responsive Design** – Works on desktop, tablet, and mobile.  
+- **Currency Formatting** – Displays amounts in Kenyan Shillings (Ksh) with decimals.  
+
+---
+
 
