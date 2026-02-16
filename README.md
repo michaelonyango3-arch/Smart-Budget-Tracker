@@ -57,6 +57,7 @@ All data persists between browser sessions.
 ## File Structure
 
 smart-budget-tracker/
+
 │
 ├── index.html # Dashboard page
 ├── add.html # Add/Edit Transaction page
